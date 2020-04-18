@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+
+    background-image: url('fundohome.jpg');
+    background-size: 100% 180%;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: #635a5a63;
+    line-height: 5em;
+    margin: 0
+}
+
+.cabecalho h1 {
+    margin: 0;
+}
+
+.what {
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    margin: 0 10%;
+}
+
+.quadros {
+    margin: 0 2%;
+    width: 30%;
+    text-align: center;
+    background-color: #635a5a63;
+    
+}
+
+.links {
+    display: block;
+    padding: 15px;
+    margin: 25px;
+   
+    background-color: #463f3fc5;
+
+}
+
+.linkbox {
+    margin-left: 5%;
+    text-align: left;
+
+}
+
+.cadalink {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+} 
+
+.linkbox a {
+    margin-right: 0.3em;    
+}
+
+.formitem {
+    text-align: center;
+}
+
+.formitem a {
+    color: #fff;
+    font-size: 0.9em;
+}
