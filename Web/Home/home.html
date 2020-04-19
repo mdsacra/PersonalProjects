@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="formstyle.css">
     <title>Home Page</title>
 </head>
 
@@ -18,49 +19,40 @@
         <div class='what'>
             <h3>O que você quer acessar?</h3>
         </div>
-
+       
         <div class="container">
             <div class="quadros">
-                <h4>Contatos / Redes Sociais</h4>
+                <h4 id="social">Contatos / Redes Sociais</h4>
                 <div class="links">
-                    <div class="linkbox">
-                        <div class="cadalink">
-                            <a href="https://www.gmail.com" id="gm" target="_blank"><img src="icogm.png" alt="Gmail" width="35px"></a>
-                            <label for="tw">gmail.com</label>
-                        </div>
-                        <div class="cadalink">
-                            <a href="https://www.facebook.com" id="fb" target="_blank"><img src="icofb.png" alt="Facebook" width="35px"></a>
-                            <label for="fb">facebook.com</label> </br>
-                        </div>
-                        <div class="cadalink">
-                            <a href="https://www.twitter.com" id="tw" target="_blank"><img src="icotw.png" alt="Twitter" width="35px"></a>
-                            <label for="tw">twitter.com</label>
-                        </div>
-                        <div class="formitem">
-                            <a href="#" id="additem" onclick="adicionar()">+ Ítem</a>
-                        </div>
+                    <div class="linkbox" id="listsocial">
+                        
+                    </div>
+                    <div class="formitem">
+                        <a href="#" id="additem" onclick="addsocial()">+ Ítem</a>
                     </div>
                 </div>
             </div>
 
             <div class="quadros">
-                <h4>Estudos / Trabalhos</h4>
+                <h4 id='work'>Estudos / Trabalhos</h4>
                 <div class="links">
-                    <div class="linkbox">
-                        <div class="formitem" id="teste">
-                            <a href="#" class="additem">+ ítem</a>
-                        </div>
+                    <div class="linkbox" id="listwork">
+                        
+                    </div>
+                    <div class="formitem">
+                        <a href="#" class="additem" onclick="addwork()">+ ítem</a>
                     </div>
                 </div>
             </div>
 
             <div class="quadros">
-                <h4>Entretenimento</h4>
+                <h4 id='enter'>Entretenimento</h4>
                 <div class="links">
-                    <div class="linkbox">
-                        <div class="formitem">
-                            <a href="#" class="additem">+ ítem</a>
-                        </div>
+                    <div class="linkbox" id="listenter">
+                        
+                    </div>
+                    <div class="formitem">
+                        <a href="#" class="additem" onclick="addenter()">+ ítem</a>
                     </div>
                 </div>
             </div>
@@ -68,7 +60,9 @@
         </div>
 
     </main>
+
     <script src="homejs.js"></script>
+
     <footer>
 
     </footer>

@@ -2,8 +2,9 @@ body {
     margin: 0;
 
     background-image: url('fundohome.jpg');
-    background-size: 100% 180%;
-    
+    background-size: 100% 100%;   
+    background-attachment: fixed;
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #fff;
 }
@@ -54,13 +55,17 @@ body {
 
 .cadalink {
     display: flex;
-    align-items: center;
     margin-bottom: 0.5em;
-} 
-
-.linkbox a {
-    margin-right: 0.3em;    
+    margin-right: 0.3em;  
+    
+    align-items: center;
 }
+
+.cadalink a {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 .formitem {
     text-align: center;
